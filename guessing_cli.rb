@@ -1,4 +1,5 @@
 def run_guessing_game
+  command = nil
   while command != "exit"
     puts "Guess a number!"
   command = gets.chomp
